@@ -1,0 +1,10 @@
+.env
+relay/agents.yaml
+relay/chatlog.jsonl
+agent/config.yaml
+agent/*.jsonl
+agent/agentmesh.pause
+__pycache__/
+*.pyc
+.venv/
+venv/
