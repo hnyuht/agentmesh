@@ -1,0 +1,9 @@
+# Copy to config.yaml on each machine and fill in per-machine values.
+
+agent_id: windows-desktop   # must match a key in relay/agents.yaml
+relay_url: ws://100.x.x.x:8765/ws/agent   # relay machine's Tailscale IP or MagicDNS name
+token: paste-the-same-secret-that-was-hashed-into-agents.yaml
+
+model: claude-sonnet-5
+run_command_per_minute: 20
+max_consecutive_agent_turns: 6

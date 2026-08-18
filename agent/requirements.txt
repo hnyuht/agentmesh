@@ -1,0 +1,5 @@
+anthropic>=0.40
+websockets>=12.0
+pyyaml>=6.0
+python-dotenv>=1.0
+psutil>=6.0

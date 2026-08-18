@@ -1,0 +1,6 @@
+# Copy to agents.yaml and fill in real hashed secrets.
+# Generate a hash for a secret with:
+#   python -c "from auth import hash_secret; print(hash_secret('paste-a-long-random-secret-here'))"
+agents:
+  windows-desktop: "PASTE_SHA256_HASH_HERE"
+  linux-box: "PASTE_SHA256_HASH_HERE"
